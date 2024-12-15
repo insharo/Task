@@ -1,0 +1,69 @@
+# Node Modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Environment Variables
+.env
+.env.test
+.env.production
+.env.local
+
+# Build Outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log*
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.sw?
+*.sublime-project
+*.sublime-workspace
+
+# Mac System Files
+.DS_Store
+
+# Typescript
+*.tsbuildinfo
+
+# Coverage Reports
+coverage/
+.nyc_output/
+
+# Dependency folders
+.bower_components/
+jspm_packages/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
+
+# GraphQL Generated Files
+graphql-schema.json
+schema.gql
+
+# Optional OS-specific files
+Thumbs.db
+ehthumbs.db
+
+# Misc
+*.tgz
